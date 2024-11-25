@@ -1,4 +1,4 @@
-# Host a static website on AWS S3 private bucket and cloudfront
+# Hosting a Static Website on AWS S3 with CloudFront as a CDN
 
 - step 1: create an s3 bucket 
 
@@ -11,6 +11,7 @@
 - step 3: upload files and folder
 
 ![](images/s3-bucket%203.jpg)
+![](images/udacity-cloud-005.png)
 
 - step 4: go to cloudfront, create a distribution and configure the settings;
 - add origin domain
@@ -22,10 +23,16 @@
 
 ![](images/s3-bucket%204.jpg)
 
+![](images/udacity-cloud-003.png)
+
 -step 5: copy policy, go back to the bucket created, in permissions edit the bucket policy
 
-![](images/s3-bucket%205.jpg)
+![](images/udacity-cloud-007.png)
 
 - step 6: go back to cloudfront and copy the domain URL and check it on the browser to confirm access to your website
 
-![](images/s3-bucket%206.jpg)
+![](images/udacity-cloud-002.png)
+
+- step 7: accessing via S3 object URL
+
+![](images/udacity-cloud-001.png)
